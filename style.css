@@ -28,7 +28,8 @@ a{
 
 .animation1 {
     animation-name: animation;
-    animation-duration: 12s;
+    animation-duration: 2s;
+    animation-iteration-count:a;
 
 }
 
@@ -37,11 +38,7 @@ a{
         color: black;
     }
 
-    50% {
-        color: rgb(24, 173, 37);
-    }
-
     100% {
-        color: rgb(255, 255, 255);
+        color: rgb(15, 235, 34);
     }
 }
