@@ -1,6 +1,7 @@
 
 body{
     text-align: center;
+    color: rgb(0, 182, 24);
 }
 
 a{
@@ -35,6 +36,9 @@ a{
 
 @keyframes animation {
     0% {
-            color: rgb(15, 235, 34);
+            color: rgb(0, 0, 0);
     } 
+    100% {
+        color: rgb(0, 182, 24);
+} 
 }
