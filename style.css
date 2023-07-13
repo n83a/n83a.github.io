@@ -35,8 +35,6 @@ a{
 
 @keyframes animation {
     0% {
-
-    }    100% {
-        color: rgb(15, 235, 34);
-    }
+            color: rgb(15, 235, 34);
+    } 
 }
