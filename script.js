@@ -1,8 +1,8 @@
 function li1(type){
 if(type == 'x'){
-window.location.href = "https://twitter.com/naaaaaao831934";
+window.open("https://twitter.com/naaaaaao831934","_blank");
 }
 if(type == 't'){
-window.location.href = "https://www.threads.net/@naaa83a";
+window.open("https://www.threads.net/@naaa83a","_blank");
 }
 }
