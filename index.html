@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-	<head lang="ja">
+	<head>
 		<meta charset="utf-8">
-    <meta name="robots" content="noindex">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Title</title>
-		<script src="js/main.js"></script>
+		<meta name="robots" content="noindex">
+		
+		<script src="main.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101529000-6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -13,15 +13,8 @@
 
   gtag('config', 'UA-101529000-6');
 </script>
-		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>汎用短縮URLジェネレータ</h1>
-				<p id="comment">JavaScriptによる簡易的な汎用短縮URL生成ジェネレータです。</p>
-			</div>
-		</div>
 		<div class="container">
 			<div class="alert alert-success">短縮したいURLを入力してください。</div>
 			<input type="text" class="form-control" id="url" placeholder="短くしたいURL">
@@ -30,19 +23,6 @@
 			<input type="text" readonly class="form-control" id="shorturl" placeholder="短縮URL">
 			<button id="copy" class="btn btn-primary" onclick="clipboadCopy('shorturl')">クリップボードにコピー</button>
 
-
-
-<!-- 汎用短縮URLジェネレータ -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9341622472626262"
-     data-ad-slot="4756407043"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-			<hr />
-		</div>
 
 	</body>
 </html>
